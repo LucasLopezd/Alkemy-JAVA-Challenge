@@ -1,0 +1,15 @@
+package com.alkemy.challenge.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class NewRoleDto {
+    
+    private String roleName;
+}
